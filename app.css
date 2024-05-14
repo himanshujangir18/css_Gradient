@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  border: 2px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #24c6dc, #514a9d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.mainSec {
+  display: flex;
+  gap: 2rem;
+}
+button {
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  box-shadow: 3px 5px 6px black;
+  background-color: white;
+}
+.mainSec button:hover {
+  background-color: rgb(201, 198, 198);
+}
+
+.copySec {
+  border: 2px solid black;
+  padding: 1.5rem;
+  width: 35%;
+  box-shadow: 2px 4px 10px black;
+  border-radius: 1rem;
+}
+.copySec p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+section #button3:hover {
+  background-color: rgb(201, 197, 197);
+  padding: 0.73rem 2.1rem;
+}
